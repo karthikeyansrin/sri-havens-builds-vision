@@ -23,12 +23,12 @@ const Contact = () => {
       
       <main className="pt-8">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-primary/10 to-accent/20 py-16">
+        <section className="bg-gradient-to-br from-primary/10 to-accent/20 py-6">
           <div className="container mx-auto px-4 text-center">
             <h1 className="font-heading text-5xl font-bold text-foreground mb-4">
               Contact Us
             </h1>
-            <p className="font-body text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="font-body text-l text-muted-foreground max-w-2xl mx-auto">
               Ready to build your dream home? Get in touch with us today and let's 
               start creating something extraordinary together.
             </p>

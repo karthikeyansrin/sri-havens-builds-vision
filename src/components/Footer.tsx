@@ -9,11 +9,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <div className="w-6 h-6 bg-background rounded-sm flex items-center justify-center">
-                  <div className="w-3 h-3 bg-primary rounded-sm"></div>
-                </div>
-              </div>
+              <img src="/logo.png" alt="Sri Havens" className="w-10 h-10 rounded-full object-cover" />
               <div>
                 <h3 className="font-heading text-lg font-semibold text-foreground">
                   Sri Havens
@@ -51,6 +47,12 @@ const Footer = () => {
               >
                 Contact
               </Link>
+              <Link 
+                to="/sketchpad" 
+                className="block text-muted-foreground hover:text-primary transition-colors font-body text-sm"
+              >
+                Sketchpad
+              </Link>
             </nav>
           </div>
 
@@ -75,7 +77,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground font-body text-sm">
-            © 2024 Sri Havens Constructions. All rights reserved.
+            © 2026 Sri Havens Constructions. All rights reserved.
           </p>
         </div>
       </div>

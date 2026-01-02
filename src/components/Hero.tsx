@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Logo Icon */}
-          <img src="/logo.jpeg" alt="Sri Havens" className="w-20 h-20" style={{ borderRadius: '50%', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-block'}}/>
+          <img src="/logo.png" alt="Sri Havens" className="w-20 h-20" style={{ borderRadius: '50%', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-block'}}/>
 
           <h1 className="font-heading text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
             SRI HAVENS
